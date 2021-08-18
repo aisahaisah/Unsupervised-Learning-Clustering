@@ -7,7 +7,7 @@ library(FactoMineR)
 library(psych)
 library(fclust)
 ###Input Data###
-dt<-read.xlsx(file.choose(),1)
+dt<-read.xlsx(file.choose(),1) #choose data for clustering dataclustering.xlsx
 ###Memilih Data X###
 dataX<-dt[,-1]
 ###Descriptive Statistics###
